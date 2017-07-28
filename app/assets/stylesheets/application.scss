@@ -1,7 +1,5 @@
-@import 'bootstrap';
-@import 'bootstrap-compass';
-@import 'bootstrap-mincer';
-@import 'bootstrap-sprockets';
+
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -15,5 +13,8 @@
  * It is generally better to create a new file per style scope.
  *
  *= require_tree .
+
  *= require_self
+
  */
+@import 'bootstrap';
